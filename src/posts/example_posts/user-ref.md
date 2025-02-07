@@ -42,6 +42,15 @@ This page explains how to do various things. You can find more step-by-step inst
         - e.g. When linking images in posts, you can just do `/assets/images/example.jpg`, instead of `/blog/assets/images/bowl_of_berries.jpg`
     - **⚠️ Warning**: If you're uploading to Neocities and already have a homepage with content in it, BE SURE TO SET THIS!
         - Uploading to Neocities will OVERWRITE content like your `index.html` !
+- ✦ `blueskyHandle`
+    - Your bluesky handle, e.g. (user.bsky.social) Use this is you wish to have Bluesky replies as comments.
+    - After publishing a post or page, link to it in a Bluesky post. From then on, any replies to that post will show up as comments
+    - The comment box will look through your account for the oldest post linking to the page and use that for comments. If you delete the post you'll lose your comments, if you posted a link to the page after, that post will have its comments shown.
+- ✦ `commentBoxID`
+    - Set this if you're using CommentBox.io for comments. Set it to your *Project ID*, e.g. `123456789-proj`, as specified in your CommentBox dashboard.
+    - The comments are tied to the URL of any given page. If you rename a post's filename, such that the URL changes, the comments will be reset (though not lost). The same will happen if you change domains.
+- ✦ `commentBoxText`
+    - Set this to change the color of the text used by CommentBox.io box.
 
 ## Commands
 - `npm install`

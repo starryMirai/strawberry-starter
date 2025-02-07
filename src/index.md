@@ -1,9 +1,10 @@
 ---
-title: Welcome to Strawberry Starter!
+title: Welcome to Strawberry Starter! (With Comments~)
 date: 2024-01-01
 layout: layout.html
 ---
-A simple, quick blog template for [11ty](https://www.11ty.dev/)!
+A simple, quick blog template for [11ty](https://www.11ty.dev/)!  
+Now with comments!
 ![pixel art of a strawberry](/assets/images/berrysprite.png)
 
 ## Features:
@@ -15,7 +16,7 @@ A simple, quick blog template for [11ty](https://www.11ty.dev/)!
     - Only edit HTML if you really want to
 - One-command upload to [Neocities](https://neocities.org/)
     - Upload directly to a site or to a subdirectory
-
+- ✦ Easy comments through [Bluesky](https://bsky.app/), [CommentBox](https://commentbox.io/), or your provider of choice!
 
 ### That sounds awesome!
 I think so, too! If you want to get started, you can read the [installation guide](posts/example_posts/installation), but feel free to click around and explore instead. If you're wondering why this site is structured like a blog, it's because it *is* the template! Neat, huh?

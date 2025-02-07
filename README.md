@@ -1,4 +1,4 @@
-# 🍓 Strawberry Starter
+# 🍓 Strawberry Starter ✦ With Comments ✦
 A simply-sweet blog template for [11ty](https://www.11ty.dev/)!
 
 For more information, including a step-by-step installation guide with detailed instructions, [check out the homepage](https://strawberrystarter.neocities.org/).  
