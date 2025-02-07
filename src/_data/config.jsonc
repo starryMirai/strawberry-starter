@@ -51,5 +51,9 @@
     // !!!
     // IF YOU'RE USING NEOCITIES UPLOAD AND YOUR SITE ALREADY HAS CONTENT IN IT - like a homepage - BE SURE TO SET THIS!
     // UPLOADING TO NEOCITIES WILL OVERWRITE CONTENT!
-    "siteSubDir": "/"
+    "siteSubDir": "/",
+
+    "blueskyHandle": "starrymirai.moe",
+
+    "commentBoxID": "5657289474179072-proj"
 }

@@ -50,6 +50,38 @@ layout: head.html
         {% endif %}
     </nav>
     {% endif %}
+
+    {% if bsky-comments or commentbox or custom-comments %}
+    <nav id="comments">
+
+    {% if bsky-comments %}
+        <iframe
+        onload='javascript:resizeIframe(this);'
+        id="bsky-comments"
+        src="https://kayinnasaki.github.io/comment-embed/auto/#{{ config.blueskyHandle }}#{{ config.siteURL }}{{ config.siteSubDir }}{{ page.url }}#https://link.to/style/comments.css"
+        frameborder="0"
+        scrolling="no"
+        class="" style="width:100%"></iframe>
+    <script src="https://cdn.jsdelivr.net/npm/@iframe-resizer/parent@5.3.2"></script>
+    <script>
+        // If you're using this on neocities there is probably no way in hell you're commercial so you should be allowed to use this
+        // ... Don't worry about it
+        iframeResize({
+            license: 'GPLv3',
+            waitForLoad: true
+        }, '#bsky-comments');
+    </script>
+    {% endif %}
+
+    {% if commentbox %}
+        <div class="commentbox"></div>
+        <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+        <script>commentBox('{{ config.commentBoxID }}')</script>
+    {% endif %}
+
+    </nav>
+    {% endif %}
+    
     <footer>
         <p>
             {{ config.siteName }} is written by 
