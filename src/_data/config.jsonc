@@ -10,7 +10,7 @@
 
     // the public URL of your blog
     // this is necessary for the link preview & RSS feed to function correctly
-    "siteURL": "https://starry-mirai.neocities.org/strawberry",
+    "siteURL": "https://starry-mirai.neocities.org",
 
     // your name
     // appears on the footer
@@ -51,7 +51,7 @@
     // !!!
     // IF YOU'RE USING NEOCITIES UPLOAD AND YOUR SITE ALREADY HAS CONTENT IN IT - like a homepage - BE SURE TO SET THIS!
     // UPLOADING TO NEOCITIES WILL OVERWRITE CONTENT!
-    "siteSubDir": "/",
+    "siteSubDir": "/strawberry/",
 
     "blueskyHandle": "starrymirai.moe",
 

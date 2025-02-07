@@ -1,5 +1,5 @@
 ---
-title: Adding comments through bluesky, CommentBox, etc
+title: Adding comments through Bluesky, CommentBox, etc
 date: 2025-02-07
 bsky-comments: true
 commentbox: true
