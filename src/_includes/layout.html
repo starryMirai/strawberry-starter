@@ -76,7 +76,9 @@ layout: head.html
     {% if commentbox %}
         <div class="commentbox"></div>
         <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-        <script>commentBox('{{ config.commentBoxID }}')</script>
+        <script>commentBox('{{ config.commentBoxID }}', {
+            textColor: '{{ config.commentBoxText }}'
+        })</script>
     {% endif %}
 
     {% if custom-comments %}

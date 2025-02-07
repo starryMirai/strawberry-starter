@@ -10,7 +10,7 @@
 
     // the public URL of your blog
     // this is necessary for the link preview & RSS feed to function correctly
-    "siteURL": "https://starry-mirai.neocities.org",
+    "siteURL": "https://starry-mirai.neocities.org/strawberry",
 
     // your name
     // appears on the footer
@@ -55,5 +55,6 @@
 
     "blueskyHandle": "starrymirai.moe",
 
-    "commentBoxID": "5657289474179072-proj"
+    "commentBoxID": "5657289474179072-proj",
+    "commentBoxText": "#ffff"
 }
