@@ -86,15 +86,16 @@ pre {
 .pagectrl p {
     margin: 0;
 }
-
+/*
 #comments {
+    justify-content: space-between;
 }
 
 #commentbox {
     display: flex;
     justify-content: space-between;
-}
-
+} 
+*/
 footer {
     font-size: 0.8rem;
     padding-top: 0.5rem;

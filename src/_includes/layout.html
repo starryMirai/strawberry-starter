@@ -58,7 +58,7 @@ layout: head.html
         <iframe
         onload='javascript:resizeIframe(this);'
         id="bsky-comments"
-        src="https://kayinnasaki.github.io/comment-embed/auto/#{{ config.blueskyHandle }}#{{ config.siteURL }}{{ config.siteSubDir }}{{ page.url }}#https://link.to/style/comments.css"
+        src="https://kayinnasaki.github.io/comment-embed/auto/#{{ config.blueskyHandle }}#{{ config.siteURL }}{{ config.siteSubDir }}{{ page.url }}#{{ config.siteURL }}{{ config.siteSubDir }}assets/styles/themes/{{ config.siteStyle }}.css"
         frameborder="0"
         scrolling="no"
         class="" style="width:100%"></iframe>
@@ -79,9 +79,14 @@ layout: head.html
         <script>commentBox('{{ config.commentBoxID }}')</script>
     {% endif %}
 
+    {% if custom-comments %}
+    {% include 'comments.html' %}
+    {% endif %}
     </nav>
     {% endif %}
-    
+
+
+
     <footer>
         <p>
             {{ config.siteName }} is written by 

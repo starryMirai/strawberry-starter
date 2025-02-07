@@ -41,7 +41,7 @@ nav, main {
     border-bottom-left-radius: 0;
 }
 
-footer, main, #pagination {
+footer, main, #pagination, #comments {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
@@ -100,4 +100,7 @@ ol li ul {
 ul li ul li::marker,
 ol li ul li::marker {
     color: var(--nested-ul-color);
+}
+
+#bsky-comments {
 }
